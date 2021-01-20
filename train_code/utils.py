@@ -136,6 +136,8 @@ def next_batch(filename_list, batch_size):
     batch_data = []
     for i in range(batch_size):
         image = cv2.imread(filename_list[idx[i]])
+        # print(filename_list[idx[i]])
+        # print(image)
         image = image.astype(np.float32)/127.5 - 1
         #image = image.astype(np.float32)/255.0
         batch_data.append(image)

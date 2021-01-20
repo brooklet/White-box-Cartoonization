@@ -1,0 +1,8 @@
+test_code/cartoonized_images/
+test_code/test_images/
+test_code/saved_models/
+train_code/dataset/
+train_code/pretrain/
+train_code/train_cartoon/
+__MACOSX
+__pycache__/
